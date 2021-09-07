@@ -38,8 +38,6 @@ public class AlumnoServiceImpl implements AlumnoService{
 		
 	}
 
-
-
 	@Override
 	public List<Alumno> listaAlumnoPorDni(String dni) {
 		return repository.findByDni(dni);
